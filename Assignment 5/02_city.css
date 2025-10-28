@@ -1,0 +1,14 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:system-ui,Arial}
+header.hd{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;background:#0b3a66;color:#fff}
+header.hd nav a{color:#fff;margin-left:1rem;text-decoration:none}
+.full{min-height:60vh;display:flex;align-items:center;color:#fff}
+.full .inner{max-width:900px;padding:3rem;margin:0 auto;background:rgba(0,0,0,0.25);border:1px solid rgba(255,255,255,0.05)}
+.bg-fixed{background-image:linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url('data:image/svg+xml;utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='800'%20height='600'%3E%3Crect%20width='100%25'%20height='100%25'%20fill='%23ddd'/%3E%3Ctext%20x='50%25'%20y='50%25'%20dominant-baseline='middle'%20text-anchor='middle'%20font-family='Arial'%20font-size='28'%20fill='%23666'%3EPlaceholder%20Image%3C/text%3E%3C/svg%3E');background-size:cover;background-attachment:fixed;background-position:center}
+.bg-fixed-2{background:radial-gradient(circle at 20% 30%, rgba(255,200,80,0.3), transparent 30%), url('data:image/svg+xml;utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='800'%20height='600'%3E%3Crect%20width='100%25'%20height='100%25'%20fill='%23ddd'/%3E%3Ctext%20x='50%25'%20y='50%25'%20dominant-baseline='middle'%20text-anchor='middle'%20font-family='Arial'%20font-size='28'%20fill='%23666'%3EPlaceholder%20Image%3C/text%3E%3C/svg%3E');background-attachment:fixed;background-size:cover;background-position:center}
+.gradient-linear{background:linear-gradient(90deg, rgba(11,116,218,0.9), rgba(14,84,128,0.9));min-height:40vh}
+.gradient-radial{background:radial-gradient(circle at center, rgba(255,120,60,0.85), rgba(150,50,120,0.85));min-height:40vh}
+.image-section{background:url('data:image/svg+xml;utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='800'%20height='600'%3E%3Crect%20width='100%25'%20height='100%25'%20fill='%23ddd'/%3E%3Ctext%20x='50%25'%20y='50%25'%20dominant-baseline='middle'%20text-anchor='middle'%20font-family='Arial'%20font-size='28'%20fill='%23666'%3EPlaceholder%20Image%3C/text%3E%3C/svg%3E') center/cover no-repeat;padding:4rem}
+main section{padding:4rem 1rem;border-bottom:6px solid rgba(0,0,0,0.05)}
+h2{font-size:2rem;margin-bottom:1rem;font-weight:700}
+p{font-size:1rem;line-height:1.6;color:#fff}
+footer.ft{padding:1rem;text-align:center;background:#071428;color:#fff}

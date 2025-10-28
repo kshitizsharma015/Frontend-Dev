@@ -1,0 +1,10 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:system-ui,Arial}
+body{padding:2rem;background:#f4f7fb}
+.team{display:flex;gap:1.5rem;align-items:stretch;justify-content:center}
+.member{flex:1;background:#fff;padding:1.25rem;border-radius:10px;border:1px solid #e0e6ef;box-shadow:0 6px 18px rgba(15,23,36,0.06);text-align:center;display:flex;flex-direction:column;align-items:center}
+.member img{width:120px;height:120px;border-radius:50%;object-fit:cover;margin-bottom:1rem}
+.member h3{margin:0 0 .25rem}
+.member .role{font-weight:600;color:#0b74da;margin:0 0 .5rem}
+.member .desc{flex:1}
+.lead{background:#fff9e6;border:2px solid #ffb347}
+@media(max-width:600px){.team{flex-direction:column;padding:1rem}}
